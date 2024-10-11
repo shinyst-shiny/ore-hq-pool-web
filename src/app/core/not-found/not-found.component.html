@@ -1,0 +1,22 @@
+<section
+  class="container my-5"
+  id="notFound"
+>
+  <div class="row">
+    <div class="col">
+      <div>
+        <h1 role="heading">{{ 404 }}</h1>
+        <h2 role="heading">{{ 'httpError.404.title' | transloco }}</h2>
+        <p>{{ 'httpError.404.errorMessage' | transloco }}</p>
+        <button
+          [attr.aria-label]="'button.home' | transloco"
+          [routerLink]="'/'"
+          class="btn btn-primary"
+          role="button"
+        >
+          {{ 'button.home' | transloco }}
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

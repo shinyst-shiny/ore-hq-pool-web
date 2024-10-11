@@ -1,0 +1,9 @@
+<div class="d-flex flex-column">
+    <h1>Welcome to {{ title }}!</h1>
+    <input [(ngModel)]="numWorkers" type="number">
+    <div class="d-flex gap-1">
+        <button (click)="startMiningWebWorker()">Start mining web worker</button>
+        <!--<button (click)="startMiningMainThread()">Start mining main thread</button>-->
+    </div>
+</div>
+<!--<router-outlet />-->

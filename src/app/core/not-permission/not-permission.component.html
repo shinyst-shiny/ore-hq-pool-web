@@ -1,0 +1,19 @@
+<section class="container my-5" id="notPermission">
+  <div class="row">
+    <div class="col">
+      <div>
+        <h1 role="heading">{{ 403 }}</h1>
+        <h2 role="heading">{{ "httpError.403.title" | transloco }}</h2>
+        <p>{{ "httpError.403.errorMessage" | transloco }}</p>
+        <button
+          [attr.aria-label]="'button.home' | transloco"
+          [routerLink]="'/'"
+          class="btn btn-primary"
+          role="button"
+        >
+          {{ "button.home" | transloco }}
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,63 @@
+// For references about the scss variables for bootstrap customization use the following link
+// https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+// scss-docs-start gray-color-variables
+$white: #fff;
+$gray: #d3dce6;
+$gray-100: #f9fafc;
+$gray-200: #eff2f7;
+$gray-300: #e5e9f2;
+$gray-400: #e0e6ed;
+$gray-500: #d3dce6;
+$gray-600: #c0ccda;
+$gray-700: #8492a6;
+$gray-800: #3c4858;
+$gray-900: #273444;
+$black: #1f2d3d;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start theme-color-variables
+$primary: #ef5350;
+$secondary: $gray-600;
+//$success:       $green;
+//$info:          $cyan;
+//$warning:       $yellow;
+//$danger:        $red;
+//$light:         $gray-100;
+//$dark:          $gray-900;
+// scss-docs-end theme-color-variables
+
+// Body
+// Settings for the `<body>` element.
+$body-color: $gray-800;
+
+// scss-docs-start border-radius-variables
+$border-radius: 0.2rem;
+$border-radius-sm: 0.15rem;
+$border-radius-lg: 0.25rem;
+// scss-docs-end border-radius-variables
+
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:
+  'Roboto',
+  system-ui,
+  -apple-system,
+  'Segoe UI',
+  'Helvetica Neue',
+  Arial,
+  'Noto Sans',
+  'Liberation Sans',
+  sans-serif,
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  'Segoe UI Symbol',
+  'Noto Color Emoji';
+
+// stylelint-enable value-keyword-case
+$font-family-base: $font-family-sans-serif;
+$font-family-code: $font-family-sans-serif;
+
+// Popovers
+// scss-docs-start popover-variables
+$popover-header-bg: shade-color($gray-100, 6%);
+// scss-docs-end popover-variables
